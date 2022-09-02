@@ -1,0 +1,37 @@
+29 august
+sprite artwork
+movement and collisions
+
+30 august
+-rewrote marker code so it would snap to blocks correctly/ be reusable for other functions
+-wrote a food object which allows for picking up and placing food
+-TODO chopping meat, frying meat, combining food, picking up plates, renaming food objects to obj as i will use type for frying pan and plates etc
+
+31 august
+-refactored food to obj and reused it for pan
+-food can't be placed on top of other food unless they are compatible and combine
+-chopping meat and cheeze is possible with the implementation of nextid()
+-frying meat is possible (but requires manual input) to produce burger_cooked
+-combining food is now possible (you can now create an hamburger from bun and pan_meat_cooked, as well as hamburger_cheeze)
+-When dropping food intro trash can it disappears
+-Fixed disappearing frying pan using two if-statements as you want frying pan to remain stationary in hand or in obj_arr
+
+TODO
+-AFK frying
+-One press on action key allows you to cut entire product instead of multiple
+-Plates
+-Order list
+-Points
+-2-players
+-sprite compression using flipped tiles
+-Washing dishes and dirty dishes
+-throwing food
+
+1 september
+-Restructured draw_p_inventory() so that it is drawn differently based on player direction.
+-One button press to cook and chop food using p-acting. Cook food is still not possible afk but doesn't require multiple keypresses. Solve by using action states?
+-Added a timer and score
+-Added double cheeze burger
+-Added afk cooking
+-Added music
+-Added sfx although frying sfx is not working right now. Will need to implement a SFX manager
