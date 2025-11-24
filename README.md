@@ -6,4 +6,5 @@
 ![](https://github.com/PennDraken/UnderCooked/blob/main/gifs/undercooked_2.gif)
 ![](https://github.com/PennDraken/UnderCooked/blob/main/gifs/undercooked_3.gif)
 
-# Where to play
+# Play online here
+https://penndraken.github.io/UnderCooked/
