@@ -35,3 +35,6 @@ TODO
 -Added afk cooking
 -Added music
 -Added sfx although frying sfx is not working right now. Will need to implement a SFX manager
+
+24 november 2025
+- Added updates that was previously private
